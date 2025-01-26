@@ -31,7 +31,7 @@ class Solution:
 
         # Count the frequency of each number
         count = Counter(nums)
-
+        print(count)
         # Use a heap (min-heap by default in Python)
         # The heap will store elements based on their frequency
         heap = []
